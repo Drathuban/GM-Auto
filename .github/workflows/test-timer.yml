@@ -1,9 +1,0 @@
-name: Test Timer
-on:
-  schedule:
-    - cron: '*/5 * * * *'
-jobs:
-  test:
-    runs-on: ubuntu-latest
-    steps:
-      - run: echo "定时器工作完全正常！"
